@@ -1,0 +1,6 @@
+train: dataset/train/images
+test: dataset/test/images
+val: dataset/valid/images
+
+nc: 3  # Number of classes (only driver_type here)
+names: ['english', 'irish', 'both']
