@@ -2,5 +2,5 @@ train: dataset/train/images
 test: dataset/test/images
 val: dataset/valid/images
 
-nc: 3  # Number of classes (only driver_type here)
-names: ['english', 'irish', 'both']
+nc: 4  # Number of classes (only driver_type here)
+names: ['cc_i', 'cc_e', 'nf_i', 'nf_e']
